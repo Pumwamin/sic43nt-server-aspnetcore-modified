@@ -54,7 +54,7 @@ az webapp create --resource-group <your-resource-group-name> --plan <your-servic
 #### Step 4 : Deploy the sample app using Git
 Deploy source code from GitHub to Azure Web App using Azure command line. The following example deploy source code from https://github.com/SiliconCraft/sic43nt-server-aspnetcore.git in master branch to a Web App name '<app_name>' in resource group <your-resource-group-name>.
 ```
-az webapp deployment source config --repo-url https://github.com/SiliconCraft/sic43nt-server-aspnetcore.git --branch master  --name <app_name> --resource-group <your-resource-group-name> --manual-integration
+az webapp deployment source config --repo-url https://github.com/Pumwamin/sic43nt-server-aspnetcore-modified.git --branch master  --name <app_name> --resource-group <your-resource-group-name> --manual-integration
 ```
 
 #### Step 5 : Customize SIC43NT Tag
